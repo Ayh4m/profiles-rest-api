@@ -30,3 +30,6 @@ Vagrant.configure("2") do |config|
    fi
   SHELL
 end
+
+# Run "chcp 1252" in the terminal before "vagrant up"
+# Run "set VAGRANT_PREFER_SYSTEM_BIN=0" in the terminal before "vagrant ssh"
